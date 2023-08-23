@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.carnet-container{
+    padding: 8px;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+.usr-image-container{
+    height: 192px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.usr-image{
+    height: 150px;
+    width: 150px;
+    background-image: url(./images/socio_image.jpeg);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.usr-data-container{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.usr-name{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+.usr-num{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 2px;
+}
+
+.usr-last-paid{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.info-container{
+    height: 308px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.qr-container{
+    height: 170px;
+    width: 170px;
+    display: block;
+}
+
+.description-container{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.logos-container{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-adip{
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/adip_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-mas-naranja{
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/logo_+naranja.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
