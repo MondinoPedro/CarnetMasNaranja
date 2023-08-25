@@ -6,39 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script defer src="./index.js"></script>
+    <script defer type="module" src="./index.js"></script>
     <title>+Naranja</title>
 </head>
 <body>
     <div class="carnet-container">
         <div class="container">
-            <div class="usr-image-container">
-                <div class="usr-image"></div>
-            </div>
-            <div class="usr-data-container">
+            <div class="container-child">
+                <div class="usr-image-container">
+                    <div id="usr-image" class="usr-image"></div>
+                </div>
+                <div class="usr-data-container">
+                    
+                    <div class="usr-name-container">
+                        <p id="usr-name" class="usr-name"></p>
+                        <p id="usr-surname" class="usr-name"></p>
+                    </div>
+                    <div class="usr-num-container">
+                        <p id="usr-num" class="usr-num"></p>
+                    </div>
                 
-                <div class="usr-name-container">
-                    <p class="usr-name">NOMBRE</p>
-                    <p class="usr-name">APELLIDO</p>
-                </div>
-                <div class="usr-num-container">
-                    <p class="usr-num">Nº12982</p>
-                </div>
-            
-                <div class="usr-last-paid-container">
-                    <p class="usr-last-paid">Ultima cuota paga: 15/8/2023</p>
+                    <div class="usr-last-paid-container">
+                        <p id="usr-last-paid" class="usr-last-paid">Ultima cuota paga: </p>
+                    </div>
                 </div>
             </div>
-            <div class="info-container">
-                <div id="qr-container" class="qr-container">
-                    <div id="qr" class="qr"></div>
-                </div>
-                <div class="description-container">
-                    <p><b>Gracias por aportar</b> para que <b>el club siga creciendo</b></p>
-                </div>
-                <div class="logos-container">
-                    <div class="logo-adip"></div>
-                    <div class="logo-mas-naranja"></div>
+            <div class="container-child">
+                <div class="info-container">
+                    <div id="qr-container" class="qr-container">
+                        <div id="qr" class="qr"></div>
+                    </div>
+                    <div class="description-container">
+                        <p><b>Gracias por aportar</b> para que <b>el club siga creciendo</b></p>
+                    </div>
+                    <div class="logos-container">
+                        <div class="logo-adip"></div>
+                        <div class="logo-mas-naranja"></div>
+                    </div>
                 </div>
             </div>
         </div>
